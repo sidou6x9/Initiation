@@ -9,9 +9,9 @@
 </head>
 <body>
   <nav id="desktop-nav">
-    <div class="logo">Sidahmed Lakber</div>
+    <div class="logo hidden-left">Sidahmed Lakber</div>
     <div>
-      <ul class="nav-links">
+      <ul class="nav-links hidden-right">
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -36,10 +36,10 @@
     </div>
   </nav>
   <section id="profile">
-    <div class="section__pic-container">
+    <div class="section__pic-container hidden-up">
       <img src="./assets/profile-pic.jpeg" alt="sidahmed profile picture" id="my-img"/>
     </div>
-    <div class="section__text">
+    <div class="section__text hidden-down">
       <p class="section__text__p1">Hello, I'm</p>
       <h1 class="title">Sidahmed Lakber</h1>
       <p class="section__text__p2">Frontend Developer</p>
@@ -70,7 +70,7 @@
       </div>
     </div>
   </section>
-  <section id="about">
+  <section id="about" >
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
     <div class="section-container">
@@ -78,10 +78,10 @@
         <img
           src="./assets/about-pic.jpeg"
           alt="Profile picture"
-          class="about-pic"
+          class="about-pic hidden-left"
         />
       </div>
-      <div class="about-details-container">
+      <div class="about-details-container hidden-right">
         <div class="about-containers">
           <div class="details-container">
             <img
@@ -116,12 +116,12 @@
       onclick="location.href='./#experience'"
     />
   </section>
-  <section id="experience">
+  <section id="experience" >
     <p class="section__text__p1">Explore My</p>
     <h1 class="title">Experience</h1>
     <div class="experience-details-container">
       <div class="about-containers">
-        <div class="details-container">
+        <div class="details-container hidden-left">
           <h2 class="experience-sub-title">Frontend Development</h2>
           <div class="article-container">
             <article>
@@ -192,7 +192,7 @@
             </article>
           </div>
         </div>
-        <div class="details-container">
+        <div class="details-container hidden-right">
           <h2 class="experience-sub-title">Backend Development</h2>
           <div class="article-container">
             <article>
@@ -250,12 +250,12 @@
       onclick="location.href='./#projects'"
     />
   </section>
-  <section id="projects">
+  <section id="projects" >
     <p class="section__text__p1">Browse My Recent</p>
     <h1 class="title">Projects</h1>
     <div class="experience-details-container">
       <div class="about-containers">
-        <div class="details-container color-container">
+        <div class="details-container color-container hidden-right">
           <div class="article-container">
             <img
               src="./assets/project-1.png"
@@ -279,7 +279,7 @@
             </button>
           </div>
         </div>
-        <div class="details-container color-container">
+        <div class="details-container color-container hidden-right">
           <div class="article-container">
             <img
               src="./assets/project-2.png"
@@ -303,7 +303,7 @@
             </button>
           </div>
         </div>
-        <div class="details-container color-container">
+        <div class="details-container color-container hidden-right">
           <div class="article-container">
             <img
               src="./assets/project-3.png"
@@ -336,7 +336,7 @@
       onclick="location.href='./#contact'"
     />
   </section>
-  <section id="contact">
+  <section id="contact" class="hidden-down">
     <p class="section__text__p1">Get in Touch</p>
     <h1 class="title">Contact Me</h1>
     <div class="contact-info-upper-container">
